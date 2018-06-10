@@ -10,7 +10,7 @@ import { AnalyticsService } from '../../../@core/utils/analytics.service';
       [firstValue]="false"
       [secondValue]="true"
       [firstValueLabel]="'Light'"
-      [secondValueLabel]="'Cosmic'"
+      [secondValueLabel]="'default'"
       [value]="currentBoolTheme()"
       (valueChange)="toggleTheme($event)"
       [vertical]="vertical"
